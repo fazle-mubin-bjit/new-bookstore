@@ -1,5 +1,5 @@
-CREATE DATABASE BookStore;
-USE BookStore;
+CREATE DATABASE bookstore;
+USE bookstore;
 
 CREATE TABLE Book(
     BookID varchar(50),
