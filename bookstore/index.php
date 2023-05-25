@@ -6,7 +6,7 @@
 <?php
 session_start();
 	if(isset($_POST['ac'])){
-		$servername = "localhost";
+		$servername = "192.168.20.158";
 		$username = "root";
 		$password = "";
 
@@ -33,7 +33,7 @@ session_start();
 	}
 
 	if(isset($_POST['delc'])){
-		$servername = "localhost";
+		$servername = "192.168.20.158";
 		$username = "root";
 		$password = "";
 
@@ -50,7 +50,7 @@ session_start();
 		$conn->query($sql);
 	}
 
-	$servername = "localhost";
+	$servername = "192.168.20.158";
 	$username = "root";
 	$password = "";
 
